@@ -1,0 +1,20 @@
+main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 0px;
+	margin: 0px auto;
+	max-width: 600px;
+}
+
+button {
+	margin-bottom: 10px;
+	max-width: 600px;
+	width: 90vw;
+}
+
+app-square {
+	// height:200px;
+	height: 30vw;
+	max-height: 200px;
+	border: 1px gray solid;
+}
